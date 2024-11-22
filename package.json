@@ -1,0 +1,17 @@
+{
+  "name": "02-exercicio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sync:db": "node src/database/sync-database.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [],
+  "author": "Antoniel Zeferino",
+  "license": "ISC",
+  "description": "Aplicação usada para aprender os procedimentos basicos de criação de back-end",
+  "dependencies": {
+    "express": "^4.21.1",
+    "pg": "^8.13.1"
+  }
+}
